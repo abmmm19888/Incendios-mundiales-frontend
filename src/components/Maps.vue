@@ -3,8 +3,11 @@
 </script>
 
 <template>
-    <div>
-<p>Mapa de incendios</p>
+    <div class="card" style="width: 18rem;">
+        <img src="../assets/images/mapafuegosok.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <p class="card-text">Previsualiza el mapa de información de los incendios que se encuentran en España en estos momentos.</p>
+        </div>
     </div>
 </template>
 
