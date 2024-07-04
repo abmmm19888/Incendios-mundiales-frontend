@@ -20,4 +20,6 @@
         </div>
     </div>
 </template>
-<styles lang="scss"></styles>
+<styles lang="scss">
+
+</styles>
