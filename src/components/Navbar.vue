@@ -31,6 +31,8 @@
 </template>
 
 <styles lang="scss">
+$primary-color: #ff7a00;
+$secondary-color: #2E4052;
   * {
   margin:0;
   padding:0;
