@@ -94,7 +94,7 @@ A list of the tools used in the project:
 ##  Mockups:
 ***
 
-![HOME](https://ibb.co/TchMZQS)
+![HOME](https://i.ibb.co/H7gT0cs/HOME-1.png)
 
 
 
