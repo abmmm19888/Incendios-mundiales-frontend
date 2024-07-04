@@ -16,10 +16,10 @@
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Map</a>
+          <a class="nav-link" href="/maps">Map</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="../views/LoginView.vue">Login In</a>
+          <a class="nav-link" href="/login">Login In</a>
         </li>
         <li class="nav-item">
           <a class="nav-link disabled" aria-disabled="true">Disabled</a>
