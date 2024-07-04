@@ -1,24 +1,5 @@
-<template>
-  <GMapMap
-    :center="center"
-    :zoom="10"
-    map-type-id="terrain"
-    style="width: 100vw; height: 20rem"
-  >
-    <GMapCluster :zoomOnClick="true">
-      <GMapMarker
-        :key="index"
-        v-for="(m, index) in markers"
-        :position="m.position"
-        :clickable="true"
-        :draggable="true"
-        @click="center = m.position"
-      />
-    </GMapCluster>
-  </GMapMap>
-</template>
-
 <script>
+
 export default {
   data() {
     return {
@@ -53,6 +34,28 @@ export default {
   },
 };
 </script>
+
+<template>
+  <GMapMap
+    :center="center"
+    :zoom="10"
+    map-type-id="terrain"
+    style="width: 100vw; height: 20rem"
+  >
+    <GMapCluster :zoomOnClick="true">
+      <GMapMarker
+        :key="index"
+        v-for="(m, index) in markers"
+        :position="m.position"
+        :clickable="true"
+        :draggable="true"
+        @click="center = m.position"
+      />
+    </GMapCluster>
+  </GMapMap>
+</template>
+
+
 
 <style>
 body {

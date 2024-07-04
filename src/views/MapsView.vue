@@ -1,10 +1,12 @@
 <script setup>
-import Maps from '../components/Maps.vue';
-import TheWelcome from '../components/Maps.vue'
+import ExampleMap from '../components/ExampleMap.vue';
+//import Maps from '../components/ExampleMap.vue';
+
 </script>
 
 <template>
   <main>
-    <Maps />
+    
+    <ExampleMap />
   </main>
 </template>
