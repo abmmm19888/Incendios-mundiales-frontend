@@ -31,4 +31,32 @@
 </template>
 
 <styles lang="scss">
+  * {
+  margin:0;
+  padding:0;
+}
+
+nav {
+  width: 100%;
+  height: 25px;
+  margin-top: 0;
+  padding: 0;
+}
+
+.container-fluid {
+  background-color: $primary-color;
+  
+ 
+}
+.navbar-brand {
+  padding-left: 25px;
+}
+
+#navbarNav {
+
+  background-color: $primary-color;
+  padding-top: 5px;
+  font-size: 20px;
+ 
+}
 </styles>
