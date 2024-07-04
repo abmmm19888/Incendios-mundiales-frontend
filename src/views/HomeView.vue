@@ -1,12 +1,11 @@
 <script setup>
-import Navbar from "@/components/Navbar.vue";
-import Cards from '@/components/Cards.vue';
-import Footer from '@/components/Footer.vue';
-
+import Navbar from '../../src/components/Navbar.vue';
+import Cards from '../../src/components/Cards.vue';
+import Footer from '../../src/components/Footer.vue';
 </script>
 
 <template>
-  <Navbar />
+    <Navbar />
   <Cards />
 <Footer />
 </template>
