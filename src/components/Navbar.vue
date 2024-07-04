@@ -1,3 +1,5 @@
+
+
 <script setup>
 </script>
 
@@ -17,7 +19,7 @@
           <a class="nav-link" href="#">Map</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Login In</a>
+          <a class="nav-link" href="../views/LoginView.vue">Login In</a>
         </li>
         <li class="nav-item">
           <a class="nav-link disabled" aria-disabled="true">Disabled</a>
