@@ -3,9 +3,9 @@
 </script>
 
 <template>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+   <nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary"> 
     <div class="container-fluid">
-      <a class="navbar-brand" href="/Navbar">Navbar</a>
+      <a class="navbar-brand"> <img src="/src/assets/logos/fuego logo.svg" width="25px"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -29,10 +29,28 @@
 
 <style lang="scss">
 $primary-color: #ff7a00;
+$secondary-color: #2E4052;
 
-.navbar {
-  background-color: $primary-color;
-  border-color: $primary-color;
-  color: rgb(20, 43, 221);
+nav {
+  width: 100%;
+  height: 20px;
+  margin: 0;
+  padding: 0;
 }
+
+.container-fluid {
+  background-color: $primary-color;
+ 
+}
+.navbar-brand {
+  padding-left: 25px;
+}
+
+#navbarNav {
+  background-color: $primary-color;
+  padding-top: 5px;
+  font-size: 20px;
+ 
+}
+
 </style>
