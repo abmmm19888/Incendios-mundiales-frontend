@@ -7,6 +7,7 @@
 - [Installation](#installation) 🛠️
 - [Farewell](#farewell) 🖖
 
+
 ##  General Information 📝
 ***
 FIRE Tracker is a project developed by our consulting firm to provide an interactive dashboard displaying real-time data on the active fires in Spain using the [NASA API](https://firms.modaps.eosdis.nasa.gov/api/country/). The goal is to offer a data visualization platform with real-time analysis and scalability for future emergencies.
@@ -17,6 +18,7 @@ This project aims to:
 - Enable Real-Time Data Analysis
   
 The design, mockups and prototypes were made by [Angelina](https://github.com/Angelinabassano). 
+
 
 ## Technical Competencies 💪🏼
 ***
@@ -43,27 +45,34 @@ A list of the technologies used in the project:
 * [Vite](https://vitejs.dev/): A build tool that aims to provide a faster and leaner development experience for modern web projects.
 * [Git](https://git-scm.com/): Version control system . Used together with Github, a hosting platform for software development and version control.
 * [Editor.md](https://pandao.github.io/editor.md/en.html): A simple online markdown editor.
+* [Python](https://www.python.org/downloads/): version 3.0
+* 
 
 ##  Tools 💅🏼
 ***
 A list of the tools used in the project:  
 
 * [Vue](https://vuejs.org/): Version ^3.4.29
-* [Bootstrap](https://getbootstrap.com/): v5.3.3 Build fast, responsive sites with Bootstrap.
 * [View router](https://router.vuejs.org/)
 * [@fawmi/vue-google-maps](https://github.com/fawmi/vue-google-maps): ^0.9.79
+* [Bootstrap](https://getbootstrap.com/): v5.3.3 Build fast, responsive sites with Bootstrap.
+* [Sass](https://sass-lang.com/): 
 
 ##  Installation 🛠️
 ***
-If you wish to contribute to this project, please follow these steps:
+Requisites:
+- Node.js
+- 
 
-1. 
+1. Clone our frontend repository
 
-2. 
+2. Clone our backend repository
 
-3. 
+3. Installation frontend:
+     npm i
+     npm run dev
 
-4. 
+4. Installation backend
 
 
 ##  Farewell 🖖
