@@ -1,7 +1,7 @@
 
 <template>
     <div>
-<p>Login</p>
+<p></p>
     </div>
 </template>
 

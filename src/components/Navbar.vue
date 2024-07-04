@@ -13,7 +13,7 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="/home">Home</a>
+            <a class="nav-link active" aria-current="page" href="/">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/maps">Map</a>
@@ -31,15 +31,21 @@
 $primary-color: #ff7a00;
 $secondary-color: #2E4052;
 
+* {
+  margin:0;
+  padding:0;
+}
+
 nav {
   width: 100%;
-  height: 20px;
-  margin: 0;
+  height: 25px;
+  margin-top: 0;
   padding: 0;
 }
 
 .container-fluid {
   background-color: $primary-color;
+  
  
 }
 .navbar-brand {
@@ -47,6 +53,7 @@ nav {
 }
 
 #navbarNav {
+
   background-color: $primary-color;
   padding-top: 5px;
   font-size: 20px;
