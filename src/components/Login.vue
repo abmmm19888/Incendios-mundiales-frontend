@@ -110,4 +110,8 @@ $primary-color: #2E4052;
   outline: none; 
 }
 
+.mt-3 a {
+  color: #FF7A00;
+}
+
 </style>
