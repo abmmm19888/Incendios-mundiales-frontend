@@ -36,7 +36,7 @@ Creating a data visualization user interface.
 
 ##  Technologies 📲
 ***
-A list of the technologies used in the project:
+A list of the technologies used in the project: 
 
 * [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5): Version 5.0
 * [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS): Version 3.0
@@ -45,8 +45,9 @@ A list of the technologies used in the project:
 * [Vite](https://vitejs.dev/): A build tool that aims to provide a faster and leaner development experience for modern web projects.
 * [Git](https://git-scm.com/): Version control system . Used together with Github, a hosting platform for software development and version control.
 * [Editor.md](https://pandao.github.io/editor.md/en.html): A simple online markdown editor.
-* [Python](https://www.python.org/downloads/): version 3.0
-* 
+* [Python](https://www.python.org/downloads/): v 3.0]
+* [Docker](https://www.docker.com/): v 4.31
+
 
 ##  Tools 💅🏼
 ***
@@ -56,28 +57,52 @@ A list of the tools used in the project:
 * [View router](https://router.vuejs.org/)
 * [@fawmi/vue-google-maps](https://github.com/fawmi/vue-google-maps): ^0.9.79
 * [Bootstrap](https://getbootstrap.com/): v5.3.3 Build fast, responsive sites with Bootstrap.
-* [Sass](https://sass-lang.com/): 
+* [Sass](https://sass-lang.com/): version 1.77.6
+
 
 ##  Installation 🛠️
 ***
-Requisites:
+#Requisites: 
+
 - Node.js
-- 
+- DOCKER 
 
-1. Clone our frontend repository
+1. Frontend: Clone the repository git clone https://github.com/abmmm19888/Incendios-mundiales-frontend.git
 
-2. Clone our backend repository
+2. Backend:  Clone the repository git clone https://github.com/abmmm19888/Incendios-mundiales-backend.git 
 
-3. Installation frontend:
-     npm i
-     npm run dev
+3. Frontend installation: In your Frontend directory type   
+   - npm i
+   - npm run dev
 
-4. Installation backend
+4. Backend installation: Install Docker and use docker-compose to create database and API containers (you can open two tabs):
+
+  - docker-compose up db
+  - docker-compose up api
+
+  You can list running containers by running:
+
+    - docker ps
+
+  You can update fire data by running:
+
+    - docker exec -it $CONTAINER_ID /venv/bin/python3 update-fires.py
+
+  You can use the API directly throught the browser by going to http://API_HOST:API_PORT/docs
+
+
+##  Mockups:
+***
+
+![HOME](https://ibb.co/TchMZQS)
+
+
 
 
 ##  Farewell 🖖
 ***
 Thanks for taking the time to check out our project! We hope it provides valuable insights and contributes to a better management of fires.
+
 
 ## Our team :
 
@@ -98,7 +123,6 @@ Thanks for taking the time to check out our project! We hope it provides valuabl
 <p> <a href="https://github.com/aitorgarciafernandez">
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"> **Aitor**</a></p>
 
-
 <p> <a href="https://github.com/Jorgecas71">
    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"> **Jorge**</a></p>
 
@@ -106,6 +130,4 @@ Thanks for taking the time to check out our project! We hope it provides valuabl
    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"> **Marc**</a></p>
 
 
-We are a team of 7 front-end developer trainees collaborating at this project. We've used SCRUM methodology to deliver results within 2 days.
-
-
+We are a team of 5 frontend developer trainees and 2 backend developers who collaborated at this project within the framework of a Hackaton organized by Factoria F5. We were asked to deliver results within 2 days.
