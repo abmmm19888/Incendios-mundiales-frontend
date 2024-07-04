@@ -2,7 +2,7 @@
 ### Index
 - [General Information](#general-information) 📝
 - [Technical Competencies](#technical-competencies) 💪🏼
-- [Technologies]#technologies) 📲
+- [Technologies](#technologies) 📲
 - [Tools](#tools) 💅🏼
 - [Installation](#installation) 🛠️
 - [Farewell](#farewell) 🖖
