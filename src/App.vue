@@ -1,6 +1,5 @@
 <script setup>
 import { RouterLink, RouterView } from "vue-router";
-import VueGoogleMaps from '@fawmi/vue-google-maps'
 </script>
 
 <template>
