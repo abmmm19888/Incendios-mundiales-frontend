@@ -27,10 +27,7 @@
           placeholder="Password"
         />
       </div>
-      <button @click="login" class="btn btn-primary custom-button">Entrar</button>
-      <p class="mt-3">
-        ¿No tienes una cuenta? <a href="/SignUp">Regístrate aquí</a>
-      </p>
+      <button @click="SignUp" class="btn btn-primary custom-button">Registrar</button>
     </form>
   </div> 
 </template>
@@ -47,22 +44,18 @@ export default {
     };
   },
   methods: {
-    async login() {
-      const formData = new FormData()
-      formData.append('username', this.username)
-      formData.append('password', this.password)
-      console.log(formData)
-      const request = new Request("http://localhost:8000/token", {
+    async SignUp() {
+    const userData = new Object();
+	userData.username = this.username;
+	userData.password = this.password;
+      const request = new Request("http://localhost:8000/user", {
         method: "post",
-        body: formData
+       body: JSON.stringify(userData),
+       headers: {'Content-Type': 'application/json'},
       });
 
       console.log(request)
       const response = await fetch(request)
-      const token=(await response.json()).access_token
-      console.log(token)
-      localStorage.setItem('token', token);
-          
     }
   }
 };
