@@ -1,8 +1,8 @@
 # 🔥🔥🔥 FIRE TRACKER 🔥🔥🔥
 ### Index
 - [General Information](#general-information) 📝
-- [Technical Competencies](#technical-competencies)  💪🏼
-- [Technologies](#technologies) 📲
+- [Technical Competencies](#technical-competencies) 💪🏼
+- [Technologies]#technologies) 📲
 - [Tools](#tools) 💅🏼
 - [Installation](#installation) 🛠️
 - [Farewell](#farewell) 🖖
@@ -16,7 +16,7 @@ This project aims to:
 - Provide an Interactive Data Visualization Platform
 - Enable Real-Time Data Analysis
   
-The design, mockups and prototypes made by [Angelina](https://github.com/Angelinabassano). 
+The design, mockups and prototypes were made by [Angelina](https://github.com/Angelinabassano). 
 
 ## Technical Competencies 💪🏼
 ***
