@@ -8,6 +8,7 @@
 - [Farewell](#farewell) 🖖
 
 
+
 ##  General Information 📝
 ***
 FIRE Tracker is a project developed by our consulting firm to provide an interactive dashboard displaying real-time data on the active fires in Spain using the [NASA API](https://firms.modaps.eosdis.nasa.gov/api/country/). The goal is to offer a data visualization platform with real-time analysis and scalability for future emergencies.
@@ -18,6 +19,7 @@ This project aims to:
 - Enable Real-Time Data Analysis
   
 The design, mockups and prototypes were made by [Angelina](https://github.com/Angelinabassano). 
+
 
 
 ## Technical Competencies 💪🏼
@@ -32,6 +34,7 @@ The project is designed to:
 ###Competencies
 Creating a dynamic and adaptable web user interface.
 Creating a data visualization user interface.
+
 
 
 ##  Technologies 📲
@@ -49,6 +52,7 @@ A list of the technologies used in the project:
 * [Docker](https://www.docker.com/): v 4.31
 
 
+
 ##  Tools 💅🏼
 ***
 A list of the tools used in the project:  
@@ -58,6 +62,7 @@ A list of the tools used in the project:
 * [@fawmi/vue-google-maps](https://github.com/fawmi/vue-google-maps): ^0.9.79
 * [Bootstrap](https://getbootstrap.com/): v5.3.3 Build fast, responsive sites with Bootstrap.
 * [Sass](https://sass-lang.com/): version 1.77.6
+
 
 
 ##  Installation 🛠️
@@ -91,12 +96,13 @@ A list of the tools used in the project:
   You can use the API directly throught the browser by going to http://API_HOST:API_PORT/docs
 
 
+
 ##  Mockups:
 ***
 
 ![HOME](https://i.ibb.co/H7gT0cs/HOME-1.png)
-
-
+![MAP](https://i.ibb.co/V3XTk6N/MAPA.png)
+![LOGIN](https://i.ibb.co/VW45b9h/LOG-IN.png)
 
 
 ##  Farewell 🖖
