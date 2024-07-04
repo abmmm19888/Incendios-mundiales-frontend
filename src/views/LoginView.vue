@@ -7,5 +7,5 @@ import Navbar from "@/components/Navbar.vue";
 <template>
   <Navbar />
   <Login />
- 
+  
 </template>
