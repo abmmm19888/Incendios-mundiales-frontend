@@ -100,9 +100,9 @@ A list of the tools used in the project:
 ##  Mockups:
 ***
 
-![HOME](https://i.ibb.co/H7gT0cs/HOME-1.png)
-![MAP](https://i.ibb.co/V3XTk6N/MAPA.png)
-![LOGIN](https://i.ibb.co/VW45b9h/LOG-IN.png)
+![HOME](https://i.ibb.co/1JZ31x5/HOME.png)
+![MAP](https://i.ibb.co/4fF5SrQ/MAPA.jpg)
+![LOGIN](https://i.ibb.co/Ry9h57N/LOGIN.jpg)
 
 
 ##  Farewell 🖖
