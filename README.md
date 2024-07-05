@@ -62,6 +62,7 @@ A list of the tools used in the project:
 * [@fawmi/vue-google-maps](https://github.com/fawmi/vue-google-maps): ^0.9.79
 * [Bootstrap](https://getbootstrap.com/): v5.3.3 Build fast, responsive sites with Bootstrap.
 * [Sass](https://sass-lang.com/): version 1.77.6
+* [FAST API](https://fastapi.tiangolo.com/)
 
 
 
@@ -94,6 +95,8 @@ A list of the tools used in the project:
     - docker exec -it $CONTAINER_ID /venv/bin/python3 update-fires.py
 
   You can use the API directly throught the browser by going to http://API_HOST:API_PORT/docs
+
+  Open your browser and navigate to http://localhost:8000 to access the user interface. Use the map to see active fires in real time. 
 
 
 
